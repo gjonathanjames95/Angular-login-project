@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-login": {
+    "Tait-team": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-login",
+            "outputPath": "dist/Tait-team",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-login:build:production"
+              "buildTarget": "Tait-team:build:production"
             },
             "development": {
-              "buildTarget": "angular-login:build:development"
+              "buildTarget": "Tait-team:build:development"
             }
           },
           "defaultConfiguration": "development"
